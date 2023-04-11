@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  margin: 20px auto 0px auto;
+  font-family: 'Caveat', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+.underlined {
+  text-decoration: underline;
+}
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+
+hr {
+  color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/* class selectors */
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.3;
+  overflow: hidden;
+}
+
+/* ----------------------------------------------- */
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px;
+  height: 100px;
+}
+
+.upper-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.mountain {}
+
+.profile-img {
+  padding: 20px;
+  width: 7.5%;
+}
+
+.skills-img {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+.skills-img2 {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
+
+
+/* ------------------- */
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.btn:hover {
+  background-color: #66BFBF;
+}
